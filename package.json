@@ -1,0 +1,15 @@
+{
+  "name": "webpack-nodejs-command",
+  "version": "1.0.0",
+  "description": "Simple way to use webpack and nodejs",
+  "scripts": {
+    "wp:watch": "node ./src/howToUse.js --mode development --watch && node ./src/command.js",
+    "wp:build": "node ./src/howToUse.js --mode production && node ./src/command.js"
+  },
+  "keywords": ["webpack","nodejs"],
+  "license": "MIT",
+  "devDependencies":  {
+    "command-line-args":  "^5.2.1",
+    "dotenv":  "^16.0.3"
+  }
+}
